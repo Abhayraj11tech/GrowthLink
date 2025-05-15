@@ -10,11 +10,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $password = "";
     $dbname = "growthlink";
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    // $conn = new mysqli($servername, $username, $password, $dbname);
 
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+    // if ($conn->connect_error) {
+    //     die("Connection failed: " . $conn->connect_error);
+    // }
 
     $name = isset($_POST['name']) ? trim(htmlspecialchars($_POST['name'])) : "";
     $email = isset($_POST['email']) ? trim(htmlspecialchars($_POST['email'])) : "";
