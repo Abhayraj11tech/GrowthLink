@@ -1,5 +1,10 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+
     $servername = "localhost";
     $username = "root";
     $password = "";
@@ -20,17 +25,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $stmt->bind_param("sss", $name, $email, $message);
 
     if ($stmt->execute()) {
-        echo "<script>
-        
-                    alert('Message conveyed, Thank you!'); 
-                    window.location.href='home.html';
-
-            </script>";
+        header("Location: index.html?msg=success");
+        exit;
     } else {
-        echo "<script>alert('Error: " . $stmt->error . "');</script>";
+        echo "Error: " . $stmt->error;
     }
 
     $stmt->close();
     $conn->close();
+
+} else {
+    echo "Please submit the form.";
 }
 ?>
