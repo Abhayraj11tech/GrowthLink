@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $servername = "localhost";
     $username = "root";
@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // $stmt->bind_param("sss", $name, $email, $message);
 
     // if ($stmt->execute()) {
-        header("Location: index.html?msg=success");
+        echo '<script>alert("Message conveyed"); window.location.href="index.php";</script>';
         // exit;
     // } else {
         // echo "Error: " . $stmt->error;
