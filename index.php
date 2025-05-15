@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,13 +52,13 @@
 
         <!-- Social Icons -->
         <div class="flex gap-10 mt-3">
-            <a href="https://github.com/Abhayraj11tech">
+            <a href="https://github.com/Abhayraj11tech" target="_blank">
                 <img src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/github.svg" alt="GitHub">
             </a>
-            <a href="https://codolio.com/profile/Abhayraj">
+            <a href="https://codolio.com/profile/Abhayraj" target="_blank">
                 <img src="https://codolio.com/codolio_assets/codolio.svg" alt="Codolio" class="w-8">
             </a>
-            <a href="https://www.linkedin.com/in/abhayraj-singh-mandloi-7960a8278/">
+            <a href="https://www.linkedin.com/in/abhayraj-singh-mandloi-7960a8278/" target="_blank">
                 <img src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/linkedin.svg" alt="LinkedIn">
             </a>
         </div>
@@ -150,6 +151,35 @@
                 <h2 class="text-black text-4xl font-bold">Projects</h2>
             </div>
         </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="bot.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Judiciary System AI chatBot</div>
+                <p class="text-black mt-3"><b>Sanrakshan</b> is 
+                     an advanced AI-driven legal assistant designed to democratize access to justice by simplifying legal processes, offering multilingual support, and ensuring judicial transparency. By leveraging state-of-the-art AI technologies, Sanrakshan empowers individuals and legal professionals with accurate legal insights, reducing dependency on expensive legal services. <br> <b> [TEAM PROJECT ~ <a href="https://judicialchatbot.onrender.com/" class="text-blue-500" target="_blank">link</a>]</b>          </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP, Transformer-Based AI (Gemini-based Model), Support Vector Machine (SVM), Hidden Markov Model (HMM) </div>
+                <a href="https://github.com/Abhayraj11tech/judicialchatbot.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+    
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="os.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">OS file management system</div>
+                <p class="text-black mt-3"><b>Electron AI Directory App</b>
+                     is a desktop application built using the powerful Electron framework. This application is designed to efficiently organize and manage messy directories on a user's computer through an advanced AI agent.
+                    The AI agent is powered by Gemini-1.5-Flash, Google's Deep Mind’s most advanced language model. The application provides functionalities such as rearranging, deleting, moving, creating, or renaming files and folders based on user prompts, offering a seamless AI-powered file management experience. <br> <b> [TEAM PROJECT]</b>
+                                        </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, Python, Gemini-1.5-Flash, OS, shutil, watchdog </div>
+                <a href="https://github.com/Abhayraj11tech/Ai_Dir_org.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+        
+
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
             <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
@@ -157,7 +187,7 @@
                 <div class="text-3xl text-black mt-3 font-bold">Revenue Generation Model</div>
                 <p class="text-black mt-3"><b>Progressive Envirocare</b> is a wastewater management plant installation service provider. I built a responsive website to present their services and projects.</p>
                 <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
-                <a href="https://github.com/Abhayraj11tech/Revenue-Generation-Project.git">
+                <a href="https://github.com/Abhayraj11tech/Revenue-Generation-Project.git" target="_blank">
                     <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
                 </a>
             </div>
@@ -167,33 +197,222 @@
                 <div class="text-3xl text-black mt-3 font-bold">Student Marksheet Generator</div>
                 <p class="text-black mt-3"><b>Student Performance Evaluator</b> generates student result sheets with grades, total marks, and percentage calculations.</p>
                 <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind</div>
-                <a href="https://github.com/Abhayraj11tech/Marksheet-Generator-.git">
+                <a href="https://github.com/Abhayraj11tech/Marksheet-Generator-.git" target="_blank">
                     <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
                 </a>
             </div>
         </div>
         
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="note.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Note Taking webApplication</div>
+                <p class="text-black mt-3"><b>Smart Notes </b> 
+                    is a simple webApplication where you can quickly add notes or tasks along with the date and time. Each note shows when it was added, and you can delete it anytime you want.</p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/Smart-Notes.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+
+                </a>
+            </div>
+            
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="cart.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Shopping Filters and Cart</div>
+                <p class="text-black mt-3"><b>ShopHub</b> ~ Product Filter Page
+                    is a simple and clean web page that displays a list of products with filtering options. Users can filter items based on search keywords, price range (min-max), and product categories.
+                     </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, JavaScript
+                </div>
+                <a href="https://github.com/Abhayraj11tech/ShopHub.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
             <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
                 <img src="bmi.jpg" alt="" class="h-[200px] w-full object-cover rounded-2xl">
                 <div class="text-3xl text-black mt-3 font-bold">Smart BMI Calculator</div>
                 <p class="text-black mt-3"><b>HealthGrade</b> is a BMI calculator providing accurate measurements along with health report certification.</p>
                 <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
-                <a href="https://github.com/Abhayraj11tech/BMI-Certification-.git">
+                <a href="https://github.com/Abhayraj11tech/BMI-Certification-.git" target="_blank">
                     <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
                 </a>
             </div>
             
             <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
-                <img src="dice.jpg" alt="" class="h-[200px] w-full object-cover rounded-2xl">
-                <div class="text-3xl text-black mt-3 font-bold">Two-Player Dice Game</div>
-                <p class="text-black mt-3"><b>Epic Dice Battle</b> is a web game where each player rolls a six-sided die five times with animations.</p>
-                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
-                <a href="https://github.com/Abhayraj11tech/Dice-game.git">
+                <img src="quizJS.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Quiz</div>
+                <p class="text-black mt-3"><b>Quizo</b> 
+                  generates a visually appealing quiz certification page using HTML and Tailwind CSS. It includes a stylized header, certification title, and a decorative SVG badge to represent achievement. The layout is clean, responsive, and ideal for displaying quiz completion awards in a user-friendly format.                </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, Javascript</div>
+                <a href="https://github.com/Abhayraj11tech/Quiz.git" target="_blank">
                     <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
                 </a>
             </div>
         </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="dice.jpg" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Two-Player Dice Game</div>
+                <p class="text-black mt-3"><b>Epic Dice Battle</b> is a web game where each player rolls a six-sided die five times with animations.</p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
+                <a href="https://github.com/Abhayraj11tech/Dice-game.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="todo.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Task Manager</div>
+                <p class="text-black mt-3"><b>Tasko</b> allows users to add task in pending section and delete them, making their entry in Completed side in a clean and responsive interface. 
+                    Designed to boost productivity, and helps users stay organized by managing daily tasks efficiently.
+                </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/Task-Manager-.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="tic.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Tic Tac Toe Game</div>
+                <p class="text-black mt-3"><b>TicTacTactix</b> 
+                    a classic two-player game where participants take turns marking "X" or "O" on a 3x3 grid. The objective is to form a horizontal, vertical, or diagonal line with three of the same symbols. The project can be implemented as a console-based game or a web-based interactive version with buttons and visuals.                    </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/Tic-Tac-Toe.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+            
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="RPS.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold"> Rock Paper Scissors Game</div>
+                <p class="text-black mt-3"><b>Battle Hands</b> 
+                    a simple interactive game where the player chooses Rock, Paper, or Scissors, and the computer randomly selects an option. The winner is determined based on standard game rules, and the result is displayed. The project can be implemented as a console-based game or a web-based interactive version with buttons and visuals.                </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
+                <a href="https://github.com/Abhayraj11tech/Rock-Paper-Scissor.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="quiz.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">QuizMaster </div>
+                <p class="text-black mt-3">
+                    is an interactive and engaging web-based quiz application that allows users to test their knowledge on various topics. Users enter their details, answer multiple-choice questions, and submit their responses for evaluation.
+                </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind, PHP</div>
+                <a href="https://github.com/Abhayraj11tech/Quiz-.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+    
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="pizza.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Pizza web HomePage Demo</div>
+                <p class="text-black mt-3"><b> Spizza Hub</b>
+                    is a simple homepage UI for a pizza ordering website. The page has a clean and structured layout with a navigation bar at the top, including a logo and a search bar.
+                </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, Tailwind</div>
+                <a href="https://github.com/Abhayraj11tech/PizzaHut-.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="pearl.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">E-Commerce </div>
+                <p class="text-black mt-3">
+                    <b> Pearl ~ Styles in Trend </b>is a modern e-commerce website designed to offer a seamless shopping experience. 
+                    Featuring a stylish and user-friendly interface, it showcases a curated collection of trendy fashion items.                </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/E-Commerce-website.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+    
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="stock.png" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">Stock Market</div>
+                <p class="text-black mt-3">
+                    <b>     Stock Profit Maximizer  </b>is a web-based tool designed to help investors determine the best days to buy and sell stocks for maximum profit. Given historical stock prices, the system analyzes price trends.
+                </p>
+                <div class="mt-2 text-center font-bold text-xl">Tech Stack: HTML, CSS, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/Stock-Market-.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 p-5 mt-10 text-black">
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="https://cdn.sanity.io/images/9sed75bn/production/7a6cddc4a6cc60c40be31ebc1f9424bf21be0384-896x504.png?auto=format" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">E-Wallet</div>
+                <p class="text-black mt-3">
+                    <b>Smart E-Wallet</b> System is a simple web-based banking application that allows users to manage their transactions efficiently. Users can add funds, make debits, and track their account balance in real-time.
+                </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/E-Wallet.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        
+            <div class="bg-white p-5 text-center h-auto rounded-3xl shadow-lg">
+                <img src="https://5.imimg.com/data5/GQ/FP/MY-26802338/online-shopping-system.jpg" alt="" class="h-[200px] w-full object-cover rounded-2xl">
+                <div class="text-3xl text-black mt-3 font-bold">E-Cart</div>
+                <p class="text-black mt-3">
+                    <b>Smart Shopping List</b> is a simple and user-friendly web application designed for managing a shopping list efficiently. Users can add items, remove unwanted ones, and view their organized cart in real-time.
+                </p>
+                <div class="mt-3 text-center font-bold text-xl">Tech Stack: HTML, CSS, JavaScript</div>
+                <a href="https://github.com/Abhayraj11tech/E-Cart.git" target="_blank">
+                    <img src="GitHub.webp" alt="GitHub" class="w-[70px] mx-auto mt-2 hover:w-[80px]">
+                </a>
+            </div>
+        </div>
+
+
+
+        
+
+      
+
+
+
+
     </section>
       
 
@@ -205,7 +424,7 @@
             </div>
         
             <div class="mt-10 w-full max-w-lg">
-                <form action="form.php" method="POST" class="space-y-5">
+                <form action="form.php" method="post" class="space-y-5">
                     <div>
                         <label class="block text-lg">Name:</label>
                         <input type="text" required placeholder="Your Name" name="name" class="mt-2 p-2 rounded-xl w-full border">
