@@ -20,19 +20,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $email = isset($_POST['email']) ? trim(htmlspecialchars($_POST['email'])) : "";
     $message = isset($_POST['message']) ? trim(htmlspecialchars($_POST['message'])) : "";
 
-    $sql = "INSERT INTO contact (name, email, message) VALUES (?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $name, $email, $message);
+    // $sql = "INSERT INTO contact (name, email, message) VALUES (?, ?, ?)";
+    // $stmt = $conn->prepare($sql);
+    // $stmt->bind_param("sss", $name, $email, $message);
 
-    if ($stmt->execute()) {
+    // if ($stmt->execute()) {
         header("Location: index.html?msg=success");
-        exit;
-    } else {
-        echo "Error: " . $stmt->error;
-    }
+        // exit;
+    // } else {
+        // echo "Error: " . $stmt->error;
+    // }
 
-    $stmt->close();
-    $conn->close();
+    // $stmt->close();
+    // $conn->close();
 
 } else {
     echo "Please submit the form.";
